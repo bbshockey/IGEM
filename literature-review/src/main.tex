@@ -22,11 +22,33 @@
 
     % **** Very **** Tenative Sections, these can change
 
-    \section{Modeling Fluid Flow in Soil}\label{sec:modeling-fluid-flow-in-soil}
-
 
     \section{Modeling Bacterial Growth in Soil}\label{sec:modeling-bacterial-growth-in-soil}
-We based the foundation of our modeling approach on zaz
+    So much of genetic engineering and synthetic biology is conducted in labs where conditions are easily controlled and measured. The
+    temperature, humidity, PH levels, density of medium, nutrients, and many more variables influencing growth are all controlled as the 
+    researcher deems appropriate. Additionally, the use of antibiotics ensures plasmid survival allowing scientists to more easily 
+    observe their desired bacterial growth. However, in soil gathered to represent a realistic biological enviornment these conditions 
+    are not held constant and miryad problems arise in modeling and measuring bacterial growth. 
+    Due to the novelty of introducting engineered bacteria into natural soil there are very few papers published on modeling bacterial 
+    growth. However, due to health concerns there have been studies done that measure the growth and presence of Escherichia Coli in 
+    manure. In one study, researchers looked at all of the factors influincing E. Coli growth in manure and determined "Spatiotemporal 
+    factors influence survival durations of E. Coli more than amendment type, total amount of E. Coli present, organic or conventional 
+    soil management, and depth of manure application"~\cite{SharmaManan2019SoEc}. Understanding how different growth variables effect our 
+    chassis before our manipulation is imperative to understanding growth of it post engineering. Their growth model accounted for $98$ 
+    percent of variation in E. Coli growth. These researchers derived their predictive model from a machine learning algorrithm called 
+    the random forrest model. In a similar paper researchers attempted to measure the accuracy of the random forrest model(RMF). They 
+    observed over $300$ plots of manure and rigirously measured the growth of E. Coli over four years. They used the acceptable 
+    prediction zone approach as outlined by ~\cite{OscarThomasE2005VoLT} to confrim that their RMF met their accuracy standards, which it 
+    did~\cite{PangHao2020APMf}. These papers prove that by using the RMF model researchers can accurately predict the growth of E. Coli 
+    in soil. However, no research has been found indicating that this appraoch has been used to model other chassis in soil. As the first 
+    step to modeling our engineered bacteria we should model each chassis we use and create RMF models predicting its growth prior to 
+    engineering. Then the same should be repeated with the engineering bacteria. The change in the model should indicate the effect of 
+    our engineering and the difference in deathrates can be directly calculated to the success of the bacteria to consume plastics in 
+    soil. 
+    
+    
+
+
 
     \section{Modeling Microbe Movement in Soil}\label{sec:modeling-microbe-movement-in-soil}
 
